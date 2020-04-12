@@ -658,17 +658,16 @@ html {
     display: flex;
     align-items: center;
     width: 30%;
-    height: 20%;
+    height: 25%;
     -webkit-box-shadow: 1px 4px 5px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 4px 5px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 4px 5px -1px rgba(0, 0, 0, 0.75);
     border-radius: 15px;
-    background-color: white;
   }
 
   .picture_part {
     width: 200px;
-    height: 180%;
+    height: 140%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -740,22 +739,24 @@ html {
   }
 
   .text_part {
-    width: 300px;
-    height: 200px;
-    background: white;
+    width: 80%;
+    height: 100%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
   }
 
   .box_text {
     color: black;
-    font-size: 14px;
-    text-align: center;
+    font-size: 12px;
+    text-align: justify;
     padding-left: 5%;
     padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #section2 {
