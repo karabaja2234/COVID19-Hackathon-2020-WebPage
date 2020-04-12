@@ -1,355 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="styles.css" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script
-      src="https://kit.fontawesome.com/26b51dd78e.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <div class="main-header">
-      <div>
-        <ul class="circles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoExistence</title>
+  <link rel="icon" href="https://i.ibb.co/PhSyNkD/LOGO.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/26b51dd78e.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="main-header">
+    <div>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <nav>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
       </div>
-      <nav>
-        <div class="hamburger">
-          <i class="fas fa-bars"></i>
+      <ul class="nav-bar">
+        <li id="logo">
+          <div id="logo-box"><img src="images/LOGO.png" alt="" /></div>
+        </li>
+        <li><a href="#">Početna</a></li>
+        <li><a href="#section1">O aplikaciji</a></li>
+        <li><a href="#section2">Koristi aplikaciju</a></li>
+        <li><a href="#section3">O nama</a></li>
+      </ul>
+    </nav>
+    <div class="flex-area">
+      <div class="txt-box">
+        <div id="logo-box-img">
+          <img src="images/LOGO BIJELA SLOVA OKOLO.png" alt="" />
+          <h1 class="glavni_naslov">CoExistence</h1>
         </div>
-        <ul class="nav-bar">
-          <li id="logo">
-            <div id="logo-box"><img src="images/LOGO.png" alt="" /></div>
-          </li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#section1">O aplikaciji</a></li>
-          <li><a href="#section2">Koristi aplikaciju</a></li>
-          <li><a href="#section3">O nama</a></li>
-        </ul>
-      </nav>
-      <div class="flex-area">
-        <div class="txt-box">
-          <div id="logo-box-img">
-            <img src="images/LOGO BIJELA SLOVA OKOLO.png" alt="" />
-            <h1 class="glavni_naslov">CoExistence</h1>
+        <p class="tekst1">
+          Prvi put u našim životima možemo da pomognemo čitavom svijetu na
+          najjednostavniji mogući način, ostati kod kuće i učiniti sve da
+          bismo zaštitili sebe i one oko nas. Nevjerovatno je koliko jedan
+          ostanak u kući danas znači, ali još više znači kada taj ostanak
+          iskoristimo na što je bolje mogući način. Učestvuj u ovoj teškoj
+          borbi za čitav svijet, preuzmi aplikaciju i budi jedan od onih koji
+          će pomoći u ratu protiv nama nevidljivog neprijatelja.
+        </p>
+        <div class="buttons-box">
+          <a href="#section1"><button id="left">Više o aplikaciji</button></a>
+          <a href="#section2"><button>Skini aplikaciju</button></a>
+        </div>
+      </div>
+
+      <div class="mobile-app-img" data-aos="zoom-in" data-aos-duration="800">
+        <img src="images/mob-app.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div id="section1">
+    <div class="wrapper">
+      <div class="box box1" data-aos="zoom-in" data-aos-duration="800">
+        <div class="picture_part picture_part1">
+          <div class="image_box"><i class="fas fa-info-circle"></i></div>
+          <div class="subtitle_box">
+            <p class="subtitle_text">Informišite se o COVID-19</p>
           </div>
-          <p class="tekst1">
-            Prvi put u našim životima možemo da pomognemo čitavom svijetu na
-            najjednostavniji mogući način, ostati kod kuće i učiniti sve da
-            bismo zaštitili sebe i one oko nas. Nevjerovatno je koliko jedan
-            ostanak u kući danas znači, ali još više znači kada taj ostanak
-            iskoristimo na što je bolje mogući način. Učestvuj u ovoj teškoj
-            borbi za čitav svijet, preuzmi aplikaciju i budi jedan od onih koji
-            će pomoći u ratu protiv nama nevidljivog neprijatelja.
+        </div>
+        <div class="text_part text_part1">
+          <p class="box_text">
+            Dobijte zadnje informacije relevantnih institucija za borbu protiv
+            COVID-19. Informišite se o pravilima postupanja u vrijeme trajanja
+            epidemije. Saznajte kako prepoznati simptome, dobijte informacije
+            o procesu testiranja, pogledajte odluke vlasti o mjerama
+            prevencije i mnogo drugih stvari.
           </p>
-          <div class="buttons-box">
-            <a href="#section1"><button id="left">Više o aplikaciji</button></a>
-            <a href="#section2"><button>Skini aplikaciju</button></a>
+        </div>
+      </div>
+      <div class="box box2" data-aos="zoom-in" data-aos-duration="800">
+        <div class="picture_part picture_part2">
+          <div class="image_box"><i class="fas fa-book"></i></div>
+          <div class="subtitle_box">
+            <p class="subtitle_text">Edukacija</p>
           </div>
         </div>
-
-        <div class="mobile-app-img" data-aos="zoom-in" data-aos-duration="800">
-          <img src="images/mob-app.png" alt="" />
+        <div class="text_part text_part2">
+          <p class="box_text">
+            Učenik si? Nađi materijale za učenje i vježbanje raznih predmeta
+            sa nivoa osnovne škole, srednje škole ili fakulteta. Pridruži se
+            našem Google Classroom-u. Želite pomoći učenicima? Prijavite se da
+            dajete instrukcije na Google Classroom-u
+          </p>
+        </div>
+      </div>
+      <div class="box box3" data-aos="zoom-in" data-aos-duration="800">
+        <div class="picture_part picture_part3">
+          <div class="image_box">
+            <i class="fas fa-briefcase-medical"></i>
+          </div>
+          <div class="subtitle_box">
+            <p class="subtitle_text">O doktorima</p>
+          </div>
+        </div>
+        <div class="text_part text_part3">
+          <p class="box_text">
+            Svi trebamo biti zahvalni onima koji su na prvim linijama fronta u
+            toku ove krize. Doktori su oni koji se izlažu velikoj opasnosti
+            brinući se o nama. Pogledaj kroz šta oni prolaze i ostavi im
+            zahvalnicu ili poruku motivacije.
+          </p>
+        </div>
+      </div>
+      <div class="box box4" data-aos="zoom-in" data-aos-duration="800">
+        <div class="picture_part picture_part4">
+          <div class="image_box"><i class="fas fa-award"></i></div>
+          <div class="subtitle_box">
+            <p class="subtitle_text">Nagrade</p>
+          </div>
+        </div>
+        <div class="text_part text_part4">
+          <p class="box_text">
+            Učestvujte u raznim zanimljivim izazovima za koje dobivate
+            određene nagrade kojima ostvarujete razne pogodnosti, a u isto
+            vrijeme pomažete napretku domaće privrede. Učestvujte u sedmičnim
+            IT izazovima iz programiranja za dodatne nagrade i prikaz
+            pobjednika na našoj stranici.
+          </p>
+        </div>
+      </div>
+      <div class="alternative_box" data-aos="zoom-in" data-aos-duration="800">
+        <img class="logo_alternative" src="images/logo1.png" alt="" srcset="" />
+      </div>
+      <div class="box box5" data-aos="zoom-in" data-aos-duration="800">
+        <div class="picture_part picture_part5">
+          <div class="image_box"><i class="fas fa-comments"></i></div>
+          <div class="subtitle_box">
+            <p class="subtitle_text">Forum</p>
+          </div>
+        </div>
+        <div class="text_part text_part5">
+          <p class="box_text">
+            Podijelite svoje misli o koronavirusu ili eventualna iskustva i
+            savjete sa korisnicima ove platforme.Učestvujte u humanitarnim
+            akcijama. Budimo socijalno aktivni i osviješteni. Pomozimo jedni
+            drugima!
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="section1">
-      <div class="wrapper">
-        <div class="box box1" data-aos="zoom-in" data-aos-duration="800">
-          <div class="picture_part picture_part1">
-            <div class="image_box"><i class="fas fa-info-circle"></i></div>
-            <div class="subtitle_box">
-              <p class="subtitle_text">Informišite se o COVID-19</p>
-            </div>
-          </div>
-          <div class="text_part text_part1">
-            <p class="box_text">
-              Dobijte zadnje informacije relevantnih institucija za borbu protiv
-              COVID-19. Informišite se o pravilima postupanja u vrijeme trajanja
-              epidemije. Saznajte kako prepoznati simptome, dobijte informacije
-              o procesu testiranja, pogledajte odluke vlasti o mjerama
-              prevencije i mnogo drugih stvari.
-            </p>
-          </div>
-        </div>
-        <div class="box box2" data-aos="zoom-in" data-aos-duration="800">
-          <div class="picture_part picture_part2">
-            <div class="image_box"><i class="fas fa-book"></i></div>
-            <div class="subtitle_box">
-              <p class="subtitle_text">Edukacija</p>
-            </div>
-          </div>
-          <div class="text_part text_part2">
-            <p class="box_text">
-              Učenik si? Nađi materijale za učenje i vježbanje raznih predmeta
-              sa nivoa osnovne škole, srednje škole ili fakulteta. Pridruži se
-              našem Google Classroom-u. Želite pomoći učenicima? Prijavite se da
-              dajete instrukcije na Google Classroom-u
-            </p>
-          </div>
-        </div>
-        <div class="box box3" data-aos="zoom-in" data-aos-duration="800">
-          <div class="picture_part picture_part3">
-            <div class="image_box">
-              <i class="fas fa-briefcase-medical"></i>
-            </div>
-            <div class="subtitle_box">
-              <p class="subtitle_text">O doktorima</p>
-            </div>
-          </div>
-          <div class="text_part text_part3">
-            <p class="box_text">
-              Svi trebamo biti zahvalni onima koji su na prvim linijama fronta u
-              toku ove krize. Doktori su oni koji se izlažu velikoj opasnosti
-              brinući se o nama. Pogledaj kroz šta oni prolaze i ostavi im
-              zahvalnicu ili poruku motivacije.
-            </p>
-          </div>
-        </div>
-        <div class="box box4" data-aos="zoom-in" data-aos-duration="800">
-          <div class="picture_part picture_part4">
-            <div class="image_box"><i class="fas fa-award"></i></div>
-            <div class="subtitle_box">
-              <p class="subtitle_text">Nagrade</p>
-            </div>
-          </div>
-          <div class="text_part text_part4">
-            <p class="box_text">
-              Učestvujte u raznim zanimljivim izazovima za koje dobivate
-              određene nagrade kojima ostvarujete razne pogodnosti, a u isto
-              vrijeme pomažete napretku domaće privrede. Učestvujte u sedmičnim
-              IT izazovima iz programiranja za dodatne nagrade i prikaz
-              pobjednika na našoj stranici.
-            </p>
-          </div>
-        </div>
-        <div class="alternative_box" data-aos="zoom-in" data-aos-duration="800">
-          <img
-            class="logo_alternative"
-            src="images/logo1.png"
-            alt=""
-            srcset=""
-          />
-        </div>
-        <div class="box box5" data-aos="zoom-in" data-aos-duration="800">
-          <div class="picture_part picture_part5">
-            <div class="image_box"><i class="fas fa-comments"></i></div>
-            <div class="subtitle_box">
-              <p class="subtitle_text">Forum</p>
-            </div>
-          </div>
-          <div class="text_part text_part5">
-            <p class="box_text">
-              Podijelite svoje misli o koronavirusu ili eventualna iskustva i
-              savjete sa korisnicima ove platforme.Učestvujte u humanitarnim
-              akcijama. Budimo socijalno aktivni i osviješteni. Pomozimo jedni
-              drugima!
-            </p>
-          </div>
-        </div>
-      </div>
+  <div id="section2">
+    <div class="text_section" data-aos="zoom-in" data-aos-duration="800">
+      <h1 class="heading1">Budi dio, budi promjena!</h1>
+      <p class="qr_text">
+        Podizanjem svijesti o domaćim proizvodima stvaramo održivo okruženje
+        za ustrajanje u ovoj i svakoj sljedećoj krizi. Korištenjem naše
+        aplikacije stvarate priliku za oporavak domaćeg tržišta i dizanja
+        svijesti što će pomoći svima nama. Pomozimo jedni drugima da savladamo
+        ove prepreke, pomozimo sebi. Stay Safe!
+      </p>
     </div>
-
-    <div id="section2">
-      <div class="text_section" data-aos="zoom-in" data-aos-duration="800">
-        <h1 class="heading1">Budi dio, budi promjena!</h1>
-        <p class="qr_text">
-          Podizanjem svijesti o domaćim proizvodima stvaramo održivo okruženje
-          za ustrajanje u ovoj i svakoj sljedećoj krizi. Korištenjem naše
-          aplikacije stvarate priliku za oporavak domaćeg tržišta i dizanja
-          svijesti što će pomoći svima nama. Pomozimo jedni drugima da savladamo
-          ove prepreke, pomozimo sebi. Stay Safe!
-        </p>
-      </div>
-      <div class="image_part">
-        <img class="qr_image" src="images/qr.png" alt="" srcset="" />
-      </div>
-      <div class="alternative_image_part">
-        <div class="alternative_image_part_wrapper">
-          <div class="first_image_part">
-            <img
-              class="first_image_part_img"
-              src="images/playstore.png"
-              alt=""
-              srcset=""
-            />
-          </div>
-          <div class="second_image_part">
-            <img
-              class="second_image_part_img"
-              src="images/appstore.png"
-              alt=""
-              srcset=""
-            />
-          </div>
-        </div>
-        <p class="tekst">
-          <i class="fas fa-arrow-circle-up"></i> Skinite aplikaciju
-          <i class="fas fa-arrow-circle-up"></i>
-        </p>
-      </div>
+    <div class="image_part">
+      <img class="qr_image" src="images/qr.png" alt="" srcset="" />
     </div>
-
-    <div id="section3">
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11329.049335112675!2d17.1933728!3d44.7754569!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e949e029e5d3348!2sProinter!5e0!3m2!1sen!2sba!4v1586616213404!5m2!1sen!2sba"
-          width="1920"
-          height="400"
-          frameborder="0"
-          style="border: 0;"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe>
-      </div>
-      <div class="info">
-        <div class="first_panel">
-          <div class="logo_final">
-            <img
-              class="logo_final_img"
-              src="images/logo2.png"
-              alt=""
-              srcset=""
-            />
-          </div>
-          <div class="logo_heading">
-            <p class="first_tech_heading"><b>FIRST TECH</b></p>
-          </div>
+    <div class="alternative_image_part">
+      <div class="alternative_image_part_wrapper">
+        <div class="first_image_part">
+          <img class="first_image_part_img" src="images/playstore.png" alt="" srcset="" />
         </div>
-        <div class="second_panel">
-          <div class="crew">
-            <p class="crew_heading">OUR CREW</p>
+        <div class="second_image_part">
+          <img class="second_image_part_img" src="images/appstore.png" alt="" srcset="" />
+        </div>
+      </div>
+      <p class="tekst">
+        <i class="fas fa-arrow-circle-up"></i> Skinite aplikaciju
+        <i class="fas fa-arrow-circle-up"></i>
+      </p>
+    </div>
+  </div>
+
+  <div id="section3">
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11329.049335112675!2d17.1933728!3d44.7754569!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e949e029e5d3348!2sProinter!5e0!3m2!1sen!2sba!4v1586616213404!5m2!1sen!2sba"
+        width="1920" height="400" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    </div>
+    <div class="info">
+      <div class="first_panel">
+        <div class="logo_final">
+          <img class="logo_final_img" src="images/logo2.png" alt="" srcset="" />
+        </div>
+        <div class="logo_heading">
+          <p class="first_tech_heading"><b>FIRST TECH</b></p>
+        </div>
+      </div>
+      <div class="second_panel">
+        <div class="crew">
+          <p class="crew_heading">NAŠ TIM</p>
+        </div>
+        <div class="crew_wrapper">
+          <div class="alternative_logo_wrapper">
+            <div class="logo_final">
+              <img class="logo_final_img" src="images/logo2.png" alt="" srcset="" />
+            </div>
+            <p class="first_tech_heading">
+              <b>FIRST TECH</b> <br />
+              NAŠ TIM
+            </p>
           </div>
-          <div class="crew_wrapper">
-            <div class="alternative_logo_wrapper">
-              <div class="logo_final">
-                <img
-                  class="logo_final_img"
-                  src="images/logo2.png"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <p class="first_tech_heading">
-                <b>FIRST TECH</b> <br />
-                OUR CREW
+          <div class="emir">
+            <div class="emir_photo">
+              <img class="emir_photo_img" src="images/emir.png" alt="" srcset="" />
+            </div>
+            <div class="name_wrapper">
+              <p class="names"><b>Emir Baručija</b></p>
+              <p class="mail_text">
+                <i class="fas fa-envelope-open-text"></i> emchemir@gmail.com
               </p>
             </div>
-            <div class="emir">
-              <div class="emir_photo">
-                <img
-                  class="emir_photo_img"
-                  src="images/emir.png"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="name_wrapper">
-                <p class="names"><b>Emir Baručija</b></p>
-                <p class="mail_text">
-                  <i class="fas fa-envelope-open-text"></i> emchemir@gmail.com
-                </p>
-              </div>
+          </div>
+          <div class="selman">
+            <div class="selman_photo">
+              <img class="selman_photo_img" src="images/selman.png" alt="" srcset="" />
             </div>
-            <div class="selman">
-              <div class="selman_photo">
-                <img
-                  class="selman_photo_img"
-                  src="images/selman.png"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="name_wrapper">
-                <p class="names"><b>Selman Patković</b></p>
-                <p class="mail_text">
-                  <i class="fas fa-envelope-open-text"></i>
-                  selmanpatak@gmail.com
-                </p>
-              </div>
+            <div class="name_wrapper">
+              <p class="names"><b>Selman Patković</b></p>
+              <p class="mail_text">
+                <i class="fas fa-envelope-open-text"></i>
+                selmanpatak@gmail.com
+              </p>
             </div>
-            <div class="kenan">
-              <div class="kenan_photo">
-                <img
-                  class="kenan_photo_img"
-                  src="images/kenan.png"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="name_wrapper">
-                <p class="names"><b>Kenan Genjac</b></p>
-                <p class="mail_text">
-                  <i class="fas fa-envelope-open-text"></i>
-                  kenan.genjac7@gmail.com
-                </p>
-              </div>
+          </div>
+          <div class="kenan">
+            <div class="kenan_photo">
+              <img class="kenan_photo_img" src="images/kenan.png" alt="" srcset="" />
             </div>
-            <div class="adnan">
-              <div class="adnan_photo">
-                <img
-                  class="adnan_photo_img"
-                  src="images/adnan.png"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div class="name_wrapper">
-                <p class="names"><b>Adnan Kubat</b></p>
-                <p class="mail_text">
-                  <i class="fas fa-envelope-open-text"></i>
-                  adnankubat40@gmail.com
-                </p>
-              </div>
+            <div class="name_wrapper">
+              <p class="names"><b>Kenan Genjac</b></p>
+              <p class="mail_text">
+                <i class="fas fa-envelope-open-text"></i>
+                kenan.genjac7@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="adnan">
+            <div class="adnan_photo">
+              <img class="adnan_photo_img" src="images/adnan.png" alt="" srcset="" />
+            </div>
+            <div class="name_wrapper">
+              <p class="names"><b>Adnan Kubat</b></p>
+              <p class="mail_text">
+                <i class="fas fa-envelope-open-text"></i>
+                adnankubat40@gmail.com
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="aos.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
