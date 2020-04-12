@@ -800,7 +800,7 @@ html {
 
   .qr_text {
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     padding-right: 10%;
     padding-left: 10%;
     color: white;
